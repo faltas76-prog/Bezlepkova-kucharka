@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Bezlepková Kuchařka</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Bezlepková dieta</h1>
+        <p class="subtitle">Měsíční plán - 2100 kcal / den</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <select id="weekSelect">
+                <option value="week1">Týden 1</option>
+                <option value="week2">Týden 2</option>
+            </select>
+
+            <select id="daySelect">
+                <option value="Pondělí">Pondělí</option>
+                <option value="Úterý">Úterý</option>
+                <option value="Středa">Středa</option>
+                <option value="Čtvrtek">Čtvrtek</option>
+                <option value="Pátek">Pátek</option>
+                <option value="Sobota">Sobota</option>
+                <option value="Neděle">Neděle</option>
+            </select>
+        </div>
+
+        <div id="mealContainer" class="meal-container">
+            </div>
+        
+        <div class="info-section">
+            <h3>Zásady plánu:</h3>
+            <ul>
+                <li>Cíl: Hubnutí cca 0.3 kg týdně</li>
+                <li>Přílohy jen bezlepkové (rýže, brambory, quinoa, atd.)</li>
+                <li>V den sportu mírně navýšit svačiny</li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
