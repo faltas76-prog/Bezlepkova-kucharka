@@ -1,4 +1,3 @@
-// Databáze jídelníčku z dokumentu
 const dietData = {
     week1: {
         "Pondělí": [
@@ -87,10 +86,97 @@ const dietData = {
             { type: "Večeře", name: "Kuřecí polévka se zeleninou a rýží (520 kcal)" },
             { type: "Svačiny", name: "Kefír s jahodami + Mandle a mrkev" }
         ]
+    },
+    week3: {
+        "Pondělí": [
+            { type: "Snídaně", name: "Pohankové lívance s jogurtem a medem (410 kcal)" },
+            { type: "Oběd", name: "Krůtí plátek s pečenými bramborami a fazolkami (650 kcal)" },
+            { type: "Večeře", name: "Zeleninový salát s tuňákem a vejcem (530 kcal)" },
+            { type: "Svačiny", name: "Řecký jogurt + ořechy a kousek ovoce" }
+        ],
+        "Úterý": [
+            { type: "Snídaně", name: "Bezlepková ovesná kaše s borůvkami (420 kcal)" },
+            { type: "Oběd", name: "Rizoto s kuřecím masem a žampiony (660 kcal)" },
+            { type: "Večeře", name: "Zapečený lilek s mletým masem a rajčaty (560 kcal)" },
+            { type: "Svačiny", name: "Řecký jogurt + ořechy a kousek ovoce" }
+        ],
+        "Středa": [
+            { type: "Snídaně", name: "Omeleta s žampiony a sýrem (430 kcal)" },
+            { type: "Oběd", name: "Čočkový dhal s rýží (630 kcal)" },
+            { type: "Večeře", name: "Losos na páře s quinoou a brokolicí (550 kcal)" },
+            { type: "Svačiny", name: "Řecký jogurt + ořechy a kousek ovoce" }
+        ],
+        "Čtvrtek": [
+            { type: "Snídaně", name: "Pohankové lívance s jogurtem a medem (410 kcal)" },
+            { type: "Oběd", name: "Krůtí plátek s pečenými bramborami a fazolkami (650 kcal)" },
+            { type: "Večeře", name: "Zeleninový salát s tuňákem a vejcem (530 kcal)" },
+            { type: "Svačiny", name: "Řecký jogurt + ořechy a kousek ovoce" }
+        ],
+        "Pátek": [
+            { type: "Snídaně", name: "Bezlepková ovesná kaše s borůvkami (420 kcal)" },
+            { type: "Oběd", name: "Rizoto s kuřecím masem a žampiony (660 kcal)" },
+            { type: "Večeře", name: "Zapečený lilek s mletým masem a rajčaty (560 kcal)" },
+            { type: "Svačiny", name: "Řecký jogurt + ořechy a kousek ovoce" }
+        ],
+        "Sobota": [
+            { type: "Snídaně", name: "Omeleta s žampiony a sýrem (430 kcal)" },
+            { type: "Oběd", name: "Čočkový dhal s rýží (630 kcal)" },
+            { type: "Večeře", name: "Losos na páře s quinoou a brokolicí (550 kcal)" },
+            { type: "Svačiny", name: "Řecký jogurt + ořechy a kousek ovoce" }
+        ],
+        "Neděle": [
+            { type: "Snídaně", name: "Pohankové lívance s jogurtem a medem (410 kcal)" },
+            { type: "Oběd", name: "Rizoto s kuřecím masem a žampiony (660 kcal)" },
+            { type: "Večeře", name: "Zeleninový salát s tuňákem a vejcem (530 kcal)" },
+            { type: "Svačiny", name: "Řecký jogurt + ořechy a kousek ovoce" }
+        ]
+    },
+    week4: {
+        "Pondělí": [
+            { type: "Snídaně", name: "Avokádový toast z bezlepkového chleba s vejcem (430 kcal)" },
+            { type: "Oběd", name: "Hovězí plátek s rýží a zeleninou (660 kcal)" },
+            { type: "Večeře", name: "Pečená dýně se sýrem feta (520 kcal)" },
+            { type: "Svačiny", name: "Tvaroh s medem a jablko" }
+        ],
+        "Úterý": [
+            { type: "Snídaně", name: "Rýžová kaše s banánem a skořicí (410 kcal)" },
+            { type: "Oběd", name: "Kuřecí salát s quinoou (640 kcal)" },
+            { type: "Večeře", name: "Bramboráčky bez lepku se zeleninovým salátem (550 kcal)" },
+            { type: "Svačiny", name: "Tvaroh s medem a jablko" }
+        ],
+        "Středa": [
+            { type: "Snídaně", name: "Míchaná vejce s pažitkou a rajčaty (420 kcal)" },
+            { type: "Oběd", name: "Těstoviny bez lepku s boloňskou omáčkou (670 kcal)" },
+            { type: "Večeře", name: "Cizrnový salát s rukolou a balkánským sýrem (540 kcal)" },
+            { type: "Svačiny", name: "Tvaroh s medem a jablko" }
+        ],
+        "Čtvrtek": [
+            { type: "Snídaně", name: "Avokádový toast z bezlepkového chleba s vejcem (430 kcal)" },
+            { type: "Oběd", name: "Hovězí plátek s rýží a zeleninou (660 kcal)" },
+            { type: "Večeře", name: "Pečená dýně se sýrem feta (520 kcal)" },
+            { type: "Svačiny", name: "Tvaroh s medem a jablko" }
+        ],
+        "Pátek": [
+            { type: "Snídaně", name: "Rýžová kaše s banánem a skořicí (410 kcal)" },
+            { type: "Oběd", name: "Kuřecí salát s quinoou (640 kcal)" },
+            { type: "Večeře", name: "Bramboráčky bez lepku se zeleninovým salátem (550 kcal)" },
+            { type: "Svačiny", name: "Tvaroh s medem a jablko" }
+        ],
+        "Sobota": [
+            { type: "Snídaně", name: "Míchaná vejce s pažitkou a rajčaty (420 kcal)" },
+            { type: "Oběd", name: "Těstoviny bez lepku s boloňskou omáčkou (670 kcal)" },
+            { type: "Večeře", name: "Cizrnový salát s rukolou a balkánským sýrem (540 kcal)" },
+            { type: "Svačiny", name: "Tvaroh s medem a jablko" }
+        ],
+        "Neděle": [
+            { type: "Snídaně", name: "Avokádový toast z bezlepkového chleba s vejcem (430 kcal)" },
+            { type: "Oběd", name: "Hovězí plátek s rýží a zeleninou (660 kcal)" },
+            { type: "Večeře", name: "Pečená dýně se sýrem feta (520 kcal)" },
+            { type: "Svačiny", name: "Tvaroh s medem a jablko" }
+        ]
     }
 };
 
-// Nákupní seznamy pro 2 osoby (dle dokumentu)
 const shoppingListData = {
     week1: [
         { category: "Maso a ryby", items: "Kuřecí prsa – cca 1,45 kg · Hovězí maso na guláš – 300 g · Lososový filet – 300 g · Treska – 300 g · Mleté krůtí maso – 300 g" },
@@ -105,10 +191,33 @@ const shoppingListData = {
         { category: "Obiloviny, luštěniny, přílohy", items: "Rýže – 750 g · Rýžová mouka – 200 g · Bezlepkové vločky – 100 g · Quinoa – 100 g · Cizrna (vařená/konzerva) – 600 g · Brambory – 1,1 kg · Dýně hokkaido – 400 g" },
         { category: "Ovoce a zelenina", items: "Rajčata – 1 kg · Cukety – 4 ks · Paprika – 3 ks · Brokolice – 300 g · Mrkev – 2 ks · Celer – kousek · Batáty – 2 ks · Cibule – 4 ks · Fazolky – 300 g · Mix salátu – 2 balení · Okurka – 2 ks · Banány – 4 ks · Mražené lesní plody – 200 g · Jahody – 700 g · Jablka – 2 ks · Zelenina ke svačině (mrkev)" },
         { category: "Ostatní", items: "Med · Skořice · Kukuřičný škrob · Tamari (bezlepková sójová omáčka) · Zázvor, česnek · Kari koření · Bezlepkový vývar · Olivy · Petrželka · Rozmarýn · Bazalka · Chilli · Olivový olej · Mandle – 175 g · Bezlepkový džem" }
+    ],
+    week3: [
+        { category: "Maso a ryby", items: "Krůtí prsa – 600 g · Kuřecí maso – 600 g · Mleté hovězí maso – 300 g · Lososový filet – 300 g · Tuňák konzerva – 2 ks" },
+        { category: "Vejce a mléčné výrobky", items: "Vejce – 20 ks · Řecký jogurt – 1,2 kg · Tvaroh – 400 g · Sýr tvrdý strouhaný – 100 g" },
+        { category: "Obiloviny, luštěniny, přílohy", items: "Rýže – 600 g · Červená čočka – 300 g · Quinoa – 200 g · Bezlepkové ovesné vločky – 150 g · Pohanková mouka – 200 g · Brambory – 800 g" },
+        { category: "Ovoce a zelenina", items: "Borůvky – 300 g · Jablka – 4 ks · Žampiony – 300 g · Lilek – 2 ks · Rajčata – 500 g · Brokolice – 300 g · Fazolky – 300 g · Mix salátu – 2 balení · Cibule – 4 ks" },
+        { category: "Ostatní", items: "Ořechy mix – 150 g · Med · Olivový olej · Bezlepkový vývar · Koření dle chuti" }
+    ],
+    week4: [
+        { category: "Maso a ryby", items: "Hovězí zadní plátky – 600 g · Kuřecí prsa – 400 g · Mleté maso – 300 g" },
+        { category: "Vejce a mléčné výrobky", items: "Vejce – 15 ks · Tvaroh – 800 g · Sýr feta / balkánský – 200 g" },
+        { category: "Obiloviny, luštěniny, přílohy", items: "Bezlepkový chléb – 1 balení · Rýže – 500 g · Quinoa – 200 g · Bezlepkové těstoviny – 400 g · Cizrna (konzerva) – 400 g · Brambory – 800 g" },
+        { category: "Ovoce a zelenina", items: "Avokádo – 3 ks · Dýně – 1 ks · Rajčata – 600 g · Banány – 4 ks · Jablka – 6 ks · Rukola – 2 balení · Cibule – 3 ks · Pažitka – 1 svazek" },
+        { category: "Ostatní", items: "Med · Skořice · Olivový olej · Bezlepkový vývar · Boloňská omáčka (bezlepková) – 1 sklenice" }
     ]
 };
 
-// Zobrazení jídel
+function getWeekName(weekId) {
+    const names = {
+        'week1': 'Týden 1',
+        'week2': 'Týden 2',
+        'week3': 'Týden 3',
+        'week4': 'Týden 4'
+    };
+    return names[weekId];
+}
+
 function renderMeals() {
     const week = document.getElementById('weekSelect').value;
     const day = document.getElementById('daySelect').value;
@@ -129,12 +238,10 @@ function renderMeals() {
         });
     }
 
-    // Aktualizuj text tlačítka a vygeneruj nákupní seznam na pozadí
-    document.getElementById('toggleListBtn').innerText = `🛒 Zobrazit nákupní seznam pro ${week === 'week1' ? 'Týden 1' : 'Týden 2'}`;
+    document.getElementById('toggleListBtn').innerText = `🛒 Zobrazit nákupní seznam pro ${getWeekName(week)}`;
     renderShoppingList(week);
 }
 
-// Zobrazení nákupního seznamu
 function renderShoppingList(week) {
     const container = document.getElementById('shoppingListContainer');
     container.innerHTML = '';
@@ -156,20 +263,19 @@ function renderShoppingList(week) {
     }
 }
 
-// Logika rozbalení / sbalení nákupního seznamu
 document.getElementById('toggleListBtn').addEventListener('click', function() {
     const listContainer = document.getElementById('shoppingListContainer');
+    const week = document.getElementById('weekSelect').value;
+    
     if (listContainer.classList.contains('hidden')) {
         listContainer.classList.remove('hidden');
         this.innerText = "❌ Skrýt nákupní seznam";
     } else {
         listContainer.classList.add('hidden');
-        const week = document.getElementById('weekSelect').value;
-        this.innerText = `🛒 Zobrazit nákupní seznam pro ${week === 'week1' ? 'Týden 1' : 'Týden 2'}`;
+        this.innerText = `🛒 Zobrazit nákupní seznam pro ${getWeekName(week)}`;
     }
 });
 
-// Změna selectů skryje seznam (aby uživatel nebyl zmatený) a překreslí jídla
 document.getElementById('weekSelect').addEventListener('change', () => {
     document.getElementById('shoppingListContainer').classList.add('hidden');
     renderMeals();
